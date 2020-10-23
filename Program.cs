@@ -34,9 +34,14 @@ namespace MethodsPractice2
             int result = Add(2, 4);
             Console.WriteLine(result);
 
+            static int Add2(int x, int y, int z)
+            {
+                Console.WriteLine($"pick any 3 numbers to add together {x}, {y}, {z}");
+                return x + y + z;
+            }
 
-
-
+            int result2 = Add2(2, 4, 6);
+            Console.WriteLine(result2);
         }
     }
 }
