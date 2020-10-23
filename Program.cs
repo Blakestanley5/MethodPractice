@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Dynamic;
 
 namespace MethodsPractice2
@@ -45,11 +46,12 @@ namespace MethodsPractice2
 
             static int add3( int x, int y, int z, int g, int b)
             {
+                Console.WriteLine($"adding {x}, {y}, {z}, {g}, {b}");
                 return x + y + z + g + b;
             }
 
             int result3 = add3(1, 1, 1, 1, 1);
-
+            Console.WriteLine(result3);
         }
     }
 }
