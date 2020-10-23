@@ -42,6 +42,14 @@ namespace MethodsPractice2
 
             int result2 = Add2(2, 4, 6);
             Console.WriteLine(result2);
+
+            static int add3( int x, int y, int z, int g, int b)
+            {
+                return x + y + z + g + b;
+            }
+
+            int result3 = add3(1, 1, 1, 1, 1);
+
         }
     }
 }
